@@ -1,0 +1,15 @@
+{
+  "name": "elysia-experiment",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@elysiajs/static": "^0.8.1",
+    "elysia": "^0.8.5"
+  }
+}
