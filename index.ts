@@ -1,14 +1,13 @@
-import { Elysia } from 'elysia';
-import { staticPlugin } from '@elysiajs/static';
-
+import { Elysia } from "elysia";
+import { staticPlugin } from "@elysiajs/static";
 
 new Elysia()
-  .use(staticPlugin(
-    {
+  .use(
+    staticPlugin({
       assets: "static",
       prefix: "/",
-    }
-  ))
-  .listen(8080);
+    }),
+  )
+  .listen(3000);
 
 console.log("Server running at http://localhost:8080");
